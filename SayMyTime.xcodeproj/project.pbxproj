@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2370F811E9AE09D007D2C81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2370F801E9AE09D007D2C81 /* AppDelegate.swift */; };
+		A2370F831E9AE09D007D2C81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2370F821E9AE09D007D2C81 /* ViewController.swift */; };
+		A2370F861E9AE09D007D2C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2370F841E9AE09D007D2C81 /* Main.storyboard */; };
+		A2370F881E9AE09D007D2C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2370F871E9AE09D007D2C81 /* Assets.xcassets */; };
+		A2370F8B1E9AE09D007D2C81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2370F891E9AE09D007D2C81 /* LaunchScreen.storyboard */; };
+		A2D336E91EABACE8001AB9BC /* eight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336D01EABACE8001AB9BC /* eight.mp3 */; };
+		A2D336EA1EABACE8001AB9BC /* eighteen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336D11EABACE8001AB9BC /* eighteen.mp3 */; };
+		A2D336EB1EABACE8001AB9BC /* eighty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336D21EABACE8001AB9BC /* eighty.mp3 */; };
+		A2D336EC1EABACE8001AB9BC /* eleven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336D31EABACE8001AB9BC /* eleven.mp3 */; };
+		A2D336ED1EABACE8001AB9BC /* fifteen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336D41EABACE8001AB9BC /* fifteen.mp3 */; };
+		A2D336EE1EABACE8001AB9BC /* fifty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336D51EABACE8001AB9BC /* fifty.mp3 */; };
+		A2D336EF1EABACE8001AB9BC /* five.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336D61EABACE8001AB9BC /* five.mp3 */; };
+		A2D336F01EABACE8001AB9BC /* forty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336D71EABACE8001AB9BC /* forty.mp3 */; };
+		A2D336F11EABACE8001AB9BC /* four.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336D81EABACE8001AB9BC /* four.mp3 */; };
+		A2D336F21EABACE8001AB9BC /* nine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336D91EABACE8001AB9BC /* nine.mp3 */; };
+		A2D336F31EABACE8001AB9BC /* nineteen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336DA1EABACE8001AB9BC /* nineteen.mp3 */; };
+		A2D336F41EABACE8001AB9BC /* o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336DB1EABACE8001AB9BC /* o.mp3 */; };
+		A2D336F51EABACE8001AB9BC /* oclock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336DC1EABACE8001AB9BC /* oclock.mp3 */; };
+		A2D336F61EABACE8001AB9BC /* one.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336DD1EABACE8001AB9BC /* one.mp3 */; };
+		A2D336F71EABACE8001AB9BC /* seven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336DE1EABACE8001AB9BC /* seven.mp3 */; };
+		A2D336F81EABACE8001AB9BC /* seventeen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336DF1EABACE8001AB9BC /* seventeen.mp3 */; };
+		A2D336F91EABACE8001AB9BC /* six.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336E01EABACE8001AB9BC /* six.mp3 */; };
+		A2D336FA1EABACE8001AB9BC /* sixteen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336E11EABACE8001AB9BC /* sixteen.mp3 */; };
+		A2D336FB1EABACE8001AB9BC /* ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336E21EABACE8001AB9BC /* ten.mp3 */; };
+		A2D336FC1EABACE8001AB9BC /* thirteen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336E31EABACE8001AB9BC /* thirteen.mp3 */; };
+		A2D336FD1EABACE8001AB9BC /* thirty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336E41EABACE8001AB9BC /* thirty.mp3 */; };
+		A2D336FE1EABACE8001AB9BC /* three.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336E51EABACE8001AB9BC /* three.mp3 */; };
+		A2D336FF1EABACE8001AB9BC /* twelve.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336E61EABACE8001AB9BC /* twelve.mp3 */; };
+		A2D337001EABACE8001AB9BC /* twenty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336E71EABACE8001AB9BC /* twenty.mp3 */; };
+		A2D337011EABACE8001AB9BC /* two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2D336E81EABACE8001AB9BC /* two.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2370F7D1E9AE09D007D2C81 /* SayMyTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayMyTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2370F801E9AE09D007D2C81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2370F821E9AE09D007D2C81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2370F851E9AE09D007D2C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2370F871E9AE09D007D2C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2370F8A1E9AE09D007D2C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2370F8C1E9AE09D007D2C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D336D01EABACE8001AB9BC /* eight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eight.mp3; sourceTree = "<group>"; };
+		A2D336D11EABACE8001AB9BC /* eighteen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eighteen.mp3; sourceTree = "<group>"; };
+		A2D336D21EABACE8001AB9BC /* eighty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eighty.mp3; sourceTree = "<group>"; };
+		A2D336D31EABACE8001AB9BC /* eleven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eleven.mp3; sourceTree = "<group>"; };
+		A2D336D41EABACE8001AB9BC /* fifteen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fifteen.mp3; sourceTree = "<group>"; };
+		A2D336D51EABACE8001AB9BC /* fifty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fifty.mp3; sourceTree = "<group>"; };
+		A2D336D61EABACE8001AB9BC /* five.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = five.mp3; sourceTree = "<group>"; };
+		A2D336D71EABACE8001AB9BC /* forty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forty.mp3; sourceTree = "<group>"; };
+		A2D336D81EABACE8001AB9BC /* four.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = four.mp3; sourceTree = "<group>"; };
+		A2D336D91EABACE8001AB9BC /* nine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nine.mp3; sourceTree = "<group>"; };
+		A2D336DA1EABACE8001AB9BC /* nineteen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nineteen.mp3; sourceTree = "<group>"; };
+		A2D336DB1EABACE8001AB9BC /* o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = o.mp3; sourceTree = "<group>"; };
+		A2D336DC1EABACE8001AB9BC /* oclock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oclock.mp3; sourceTree = "<group>"; };
+		A2D336DD1EABACE8001AB9BC /* one.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = one.mp3; sourceTree = "<group>"; };
+		A2D336DE1EABACE8001AB9BC /* seven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seven.mp3; sourceTree = "<group>"; };
+		A2D336DF1EABACE8001AB9BC /* seventeen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seventeen.mp3; sourceTree = "<group>"; };
+		A2D336E01EABACE8001AB9BC /* six.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = six.mp3; sourceTree = "<group>"; };
+		A2D336E11EABACE8001AB9BC /* sixteen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sixteen.mp3; sourceTree = "<group>"; };
+		A2D336E21EABACE8001AB9BC /* ten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ten.mp3; sourceTree = "<group>"; };
+		A2D336E31EABACE8001AB9BC /* thirteen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thirteen.mp3; sourceTree = "<group>"; };
+		A2D336E41EABACE8001AB9BC /* thirty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thirty.mp3; sourceTree = "<group>"; };
+		A2D336E51EABACE8001AB9BC /* three.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = three.mp3; sourceTree = "<group>"; };
+		A2D336E61EABACE8001AB9BC /* twelve.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = twelve.mp3; sourceTree = "<group>"; };
+		A2D336E71EABACE8001AB9BC /* twenty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = twenty.mp3; sourceTree = "<group>"; };
+		A2D336E81EABACE8001AB9BC /* two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = two.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2370F7A1E9AE09D007D2C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2370F741E9AE09D007D2C81 = {
+			isa = PBXGroup;
+			children = (
+				A2370F7F1E9AE09D007D2C81 /* SayMyTime */,
+				A2370F7E1E9AE09D007D2C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2370F7E1E9AE09D007D2C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2370F7D1E9AE09D007D2C81 /* SayMyTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2370F7F1E9AE09D007D2C81 /* SayMyTime */ = {
+			isa = PBXGroup;
+			children = (
+				A2370F801E9AE09D007D2C81 /* AppDelegate.swift */,
+				A2370F821E9AE09D007D2C81 /* ViewController.swift */,
+				A2370F841E9AE09D007D2C81 /* Main.storyboard */,
+				A2D336CF1EABACCA001AB9BC /* Sound */,
+				A2370F891E9AE09D007D2C81 /* LaunchScreen.storyboard */,
+				A2370F871E9AE09D007D2C81 /* Assets.xcassets */,
+				A2370F8C1E9AE09D007D2C81 /* Info.plist */,
+			);
+			path = SayMyTime;
+			sourceTree = "<group>";
+		};
+		A2D336CF1EABACCA001AB9BC /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				A2D336D01EABACE8001AB9BC /* eight.mp3 */,
+				A2D336D11EABACE8001AB9BC /* eighteen.mp3 */,
+				A2D336D21EABACE8001AB9BC /* eighty.mp3 */,
+				A2D336D31EABACE8001AB9BC /* eleven.mp3 */,
+				A2D336D41EABACE8001AB9BC /* fifteen.mp3 */,
+				A2D336D51EABACE8001AB9BC /* fifty.mp3 */,
+				A2D336D61EABACE8001AB9BC /* five.mp3 */,
+				A2D336D71EABACE8001AB9BC /* forty.mp3 */,
+				A2D336D81EABACE8001AB9BC /* four.mp3 */,
+				A2D336D91EABACE8001AB9BC /* nine.mp3 */,
+				A2D336DA1EABACE8001AB9BC /* nineteen.mp3 */,
+				A2D336DB1EABACE8001AB9BC /* o.mp3 */,
+				A2D336DC1EABACE8001AB9BC /* oclock.mp3 */,
+				A2D336DD1EABACE8001AB9BC /* one.mp3 */,
+				A2D336DE1EABACE8001AB9BC /* seven.mp3 */,
+				A2D336DF1EABACE8001AB9BC /* seventeen.mp3 */,
+				A2D336E01EABACE8001AB9BC /* six.mp3 */,
+				A2D336E11EABACE8001AB9BC /* sixteen.mp3 */,
+				A2D336E21EABACE8001AB9BC /* ten.mp3 */,
+				A2D336E31EABACE8001AB9BC /* thirteen.mp3 */,
+				A2D336E41EABACE8001AB9BC /* thirty.mp3 */,
+				A2D336E51EABACE8001AB9BC /* three.mp3 */,
+				A2D336E61EABACE8001AB9BC /* twelve.mp3 */,
+				A2D336E71EABACE8001AB9BC /* twenty.mp3 */,
+				A2D336E81EABACE8001AB9BC /* two.mp3 */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2370F7C1E9AE09D007D2C81 /* SayMyTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2370F9A1E9AE09D007D2C81 /* Build configuration list for PBXNativeTarget "SayMyTime" */;
+			buildPhases = (
+				A2370F791E9AE09D007D2C81 /* Sources */,
+				A2370F7A1E9AE09D007D2C81 /* Frameworks */,
+				A2370F7B1E9AE09D007D2C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayMyTime;
+			productName = SayMyTime;
+			productReference = A2370F7D1E9AE09D007D2C81 /* SayMyTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2370F751E9AE09D007D2C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wyangy;
+				TargetAttributes = {
+					A2370F7C1E9AE09D007D2C81 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2TMTF6H5MF;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A2370F781E9AE09D007D2C81 /* Build configuration list for PBXProject "SayMyTime" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = A2370F741E9AE09D007D2C81;
+			productRefGroup = A2370F7E1E9AE09D007D2C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2370F7C1E9AE09D007D2C81 /* SayMyTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2370F7B1E9AE09D007D2C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D336F41EABACE8001AB9BC /* o.mp3 in Resources */,
+				A2D336F91EABACE8001AB9BC /* six.mp3 in Resources */,
+				A2D336EC1EABACE8001AB9BC /* eleven.mp3 in Resources */,
+				A2D336E91EABACE8001AB9BC /* eight.mp3 in Resources */,
+				A2D336F51EABACE8001AB9BC /* oclock.mp3 in Resources */,
+				A2D336F21EABACE8001AB9BC /* nine.mp3 in Resources */,
+				A2D336F11EABACE8001AB9BC /* four.mp3 in Resources */,
+				A2D337001EABACE8001AB9BC /* twenty.mp3 in Resources */,
+				A2D336F01EABACE8001AB9BC /* forty.mp3 in Resources */,
+				A2D336ED1EABACE8001AB9BC /* fifteen.mp3 in Resources */,
+				A2D336EE1EABACE8001AB9BC /* fifty.mp3 in Resources */,
+				A2D336F81EABACE8001AB9BC /* seventeen.mp3 in Resources */,
+				A2D336EA1EABACE8001AB9BC /* eighteen.mp3 in Resources */,
+				A2D336FD1EABACE8001AB9BC /* thirty.mp3 in Resources */,
+				A2D336F71EABACE8001AB9BC /* seven.mp3 in Resources */,
+				A2D336EB1EABACE8001AB9BC /* eighty.mp3 in Resources */,
+				A2D336EF1EABACE8001AB9BC /* five.mp3 in Resources */,
+				A2D336F31EABACE8001AB9BC /* nineteen.mp3 in Resources */,
+				A2D336FB1EABACE8001AB9BC /* ten.mp3 in Resources */,
+				A2D336FC1EABACE8001AB9BC /* thirteen.mp3 in Resources */,
+				A2D336FE1EABACE8001AB9BC /* three.mp3 in Resources */,
+				A2D336FA1EABACE8001AB9BC /* sixteen.mp3 in Resources */,
+				A2370F8B1E9AE09D007D2C81 /* LaunchScreen.storyboard in Resources */,
+				A2D336F61EABACE8001AB9BC /* one.mp3 in Resources */,
+				A2370F881E9AE09D007D2C81 /* Assets.xcassets in Resources */,
+				A2370F861E9AE09D007D2C81 /* Main.storyboard in Resources */,
+				A2D336FF1EABACE8001AB9BC /* twelve.mp3 in Resources */,
+				A2D337011EABACE8001AB9BC /* two.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2370F791E9AE09D007D2C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2370F831E9AE09D007D2C81 /* ViewController.swift in Sources */,
+				A2370F811E9AE09D007D2C81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2370F841E9AE09D007D2C81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2370F851E9AE09D007D2C81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2370F891E9AE09D007D2C81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2370F8A1E9AE09D007D2C81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2370F981E9AE09D007D2C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A2370F991E9AE09D007D2C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2370F9B1E9AE09D007D2C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2TMTF6H5MF;
+				INFOPLIST_FILE = SayMyTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyangy.SayMyTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A2370F9C1E9AE09D007D2C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2TMTF6H5MF;
+				INFOPLIST_FILE = SayMyTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyangy.SayMyTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2370F781E9AE09D007D2C81 /* Build configuration list for PBXProject "SayMyTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2370F981E9AE09D007D2C81 /* Debug */,
+				A2370F991E9AE09D007D2C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2370F9A1E9AE09D007D2C81 /* Build configuration list for PBXNativeTarget "SayMyTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2370F9B1E9AE09D007D2C81 /* Debug */,
+				A2370F9C1E9AE09D007D2C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2370F751E9AE09D007D2C81 /* Project object */;
+}
