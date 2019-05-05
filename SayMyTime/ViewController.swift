@@ -106,7 +106,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        DispatchQueue.main.async {
+        DispatchQueue.main.async { // Without dispatch async, the time read will be delayed by 1 second
             Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.updateTimeLabel), userInfo: nil, repeats: true)
         }
         
@@ -140,7 +140,7 @@ class ViewController: UIViewController {
         minutesString = String(minutesString.dropLast(3))
         
         let soundsArray = hourArray[Int(hourString)!] + minutesArray[Int(minutesString)!]
-        print(soundsArray)
+        print("Time read: \(soundsArray)")
         
         playerQueue = {
             
